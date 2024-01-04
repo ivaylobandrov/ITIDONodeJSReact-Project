@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import LoginForm from "./LoginForm";
+import LoginForm from "Components/LoginForm";
 import { useNavigate } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Table } from "react-bootstrap";
-import BookTableRow from "./BookTableRow";
+import BookTableRow from "Components/BookTableRow";
 
 const BookList = () => {
     const [data, setData] = useState([]);

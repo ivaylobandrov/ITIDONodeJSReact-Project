@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import CreateUserForm from "./CreateUserForm";
+import CreateUserForm from "Components/CreateUserForm";
 import { useNavigate } from "react-router-dom";
   
 // CreateUser Component
